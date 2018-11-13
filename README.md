@@ -13,3 +13,12 @@ Version 201.0
 -Removed header and footer from the pages replaced
 -Created the include folder
 -Created the header.inc.php and footer.inc.php files
+
+Version 202.0
+-Replaced top level pages by creating a function and array to dynamically create the menu. (Love, Who, Challenges, You)
+-Created the functions.inc.php file
+	-created the menuBuilder function
+-Created the menu.data.php
+	-created menuItems array
+-Included in the very top of the header.inc.php require_once to the include/menu.data.php file
+-Included in the very top of the header.inc.php require_once to the include/functions.inc.php file
